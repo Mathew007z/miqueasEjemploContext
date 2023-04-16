@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Lobster&family=Poppins&family=Rajdhani&family=Rubik+Dirt&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Varela+Round&display=swap');
+
+.container{
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(161, 214, 195);
+    background-image: url(/src/assets/back-plant.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #000 ;
+    
+}
+
+
+.box1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+
+.descuento{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    padding: 40px 60px 40px 60px;
+    background-color: rgb(253, 230, 200);
+    border-radius: 100px;
+    
+}
+
+
+.paraText {
+    margin-top: .5em;
+    font-size: 35px;
+}
+
+
+.logoGreen{
+    width: 250px;
+   
+   
+}
+
+.section {
+    height: 1400px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-image: url(/src/assets/navidadReal.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+
+}
+
+
+.box1{
+    margin-bottom: 15em;
+    margin-right: 3em;
+}
+
+.title2{
+    font-size: 22px;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+.title1{
+    font-size: 35px;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 5em;
+    margin-bottom: 1.5em;
+
+}
+
+
+.frase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30em;
+   
+}
+
+
+.buttonOff{
+  
+    padding: 20px 120px 20px 120px;
+    background-color: rgb(253, 230, 200);
+    border: 2px solid rgb(64, 101, 41);
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    margin-left: 4em;
+
+}
+
+
+img{
+    width: 11rem;
+}
+
+.reno{
+    width:450px;
+    margin-bottom: 7em;
+}
+
+.vivero{
+    margin-bottom: 1em;
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .vivero{
+        font-size: 70px;
+    }
+    .descuento{
+        font-family: 'Varela Round', sans-serif;
+        font-size: 20px;
+        padding: 20px 30px 20px 30px;
+        background-color: rgb(253, 230, 200);
+        border-radius: 100px;
+    }
+    .box1{
+        margin-right: 8em;
+    }
+    .reno{
+        width:300px;
+        margin-bottom: 5em;
+    }
+    .title1{
+        font-size: 20px;
+        font-family: 'Varela Round', sans-serif;
+        margin-left: 7em;
+        margin-bottom: 1.5em;
+        width: 300px;
+    
+    }
+
+.buttonOff{
+  
+    padding: 10px 60px 10px 60px;
+    background-color: rgb(253, 230, 200);
+    border: 2px solid rgb(64, 101, 41);
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    margin-left: 4em;
+
+}
+
+}

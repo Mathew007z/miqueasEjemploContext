@@ -1,0 +1,60 @@
+
+/* Import font-family */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+
+
+.contain-card{
+    width: 18%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #ff87bb;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 4em 0 4em 2em;
+    transition: 0.2 ease;
+    height: 350px;
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+    margin-top: 4em;
+    
+    
+}
+
+.imgCard{
+    width: 120px;
+    height: 115px;
+}
+
+.paraGP{
+    margin: 1em;
+    font-family:'Varela Round', sans-serif;
+}
+
+.buttonCont{
+    margin-left: .5em;
+    padding: 10px 15px 10px 15px;
+    margin-top: 2em;
+    border: 1px solid #000;
+    background-color: rgb(255, 200, 200);
+    border-radius: 50px;
+    margin-bottom: 2em;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+
+.buttonHand3{
+    text-decoration: none;
+    color: #000;
+
+}
+

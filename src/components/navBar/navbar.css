@@ -1,0 +1,54 @@
+
+
+
+/* Import the URL FONTS-FAMILY  */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Lobster&family=Poppins&family=Rajdhani&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+
+
+/* Navbar css  */
+
+.navbar { 
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(225, 230, 226, 0.532);
+    height: 65px;
+    align-items: center;
+    background-color:  rgb(253, 230, 200);
+    border-bottom: 1px solid #000;
+   
+    
+}
+
+
+.navbar-ul{
+    list-style-type: none;
+}
+
+
+.nav-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    font-family:'Varela Round', sans-serif;
+    font-weight: bold;
+    
+    
+}
+
+.nav-link:hover{
+    border-bottom:1px solid #000;
+}
+
+
+.imgPlanta { 
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+
+}
+
+

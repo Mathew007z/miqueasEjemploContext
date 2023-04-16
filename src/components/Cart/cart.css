@@ -1,0 +1,171 @@
+
+/* Impoort font-family */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+
+
+.cart2{
+    min-height: 600px;
+    max-height: 1200px;
+    display: flex;
+    align-items: center;
+    font-size: 42px;
+    justify-content: center;
+  
+}
+
+.cart-map{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.cardCarrito{
+    width: 18%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #ff87bb;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 4em 0 4em 2em;
+    transition: 0.2 ease;
+    height: 350px;
+    display: flex;
+    background-color: rgb(253, 239, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+    margin-top: 4em;
+}
+
+.card-img{
+    width: 120px;
+    height: 115px;
+}
+
+.name-cart{
+    margin: 1em;
+    font-family:'Varela Round', sans-serif;
+    font-size: 28px;
+}
+.button-cart{
+    margin-left: 1em;
+    padding: 10px 15px 10px 15px;
+    margin-top: 2em;
+    border: 1px solid #000;
+    background-color: rgb(255, 200, 200);
+    border-radius: 50px;
+    margin-bottom: 2em;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
+    
+    
+}
+
+.precio-cart{
+    font-size: 24px;
+}
+
+.descriptionArticle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.cont-vacio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.precio-cart-24{
+    font-size: 45px;
+    margin-bottom: 1em;
+}
+
+.button-cart-24{
+    padding: 10px 40px 10px 40px;
+    font-size: 23px;
+    background-color: rgba(155, 255, 144, 0.659);
+
+}
+
+.button-cart.button-cart-24-n1{
+    background-color: #ff6c7daa;
+   
+}
+
+
+.padre-h2-vacio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.img-carrito-vacio{
+    width: 600px;
+    margin-bottom: 1.5em;
+}
+
+.oops{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.decrease{
+    font-size: 20px;
+    padding: .2px 10px .2px 10px;
+    margin-top: .5em;
+    background-color: #ff87bb;
+    cursor: pointer;
+
+}
+
+
+
+@media screen and (max-width: 768px){
+    .img-carrito-vacio{
+        width: 300px;
+        margin-bottom: 1.5em;
+    }
+
+.oops{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+}
+
+.precio-cart-24{
+    font-size: 22px;
+    margin-bottom: 1em;
+}
+
+.button-cart-24{
+    padding: 10px 40px 10px 40px;
+    font-size: 16px;
+    background-color: rgba(155, 255, 144, 0.659);
+
+}
+
+.button-cart.button-cart-24-n1{
+    background-color: #ff6c7daa;
+   
+}
+    
+}

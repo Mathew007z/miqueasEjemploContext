@@ -1,0 +1,25 @@
+.cart{
+    width: 26px;
+    margin-left: 2em;
+    border: none;
+    background: transparent;
+
+}
+
+
+.divImg{
+    display: flex;
+
+
+}
+
+.paragraphImg{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
